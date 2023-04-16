@@ -54,7 +54,5 @@ Entonces **Se tendra en cuenta como referencia columnas no validas**
         public void testEmptyBoard() {
          new Console(board).displayBoard();
         }
-
     }
-
 ```
