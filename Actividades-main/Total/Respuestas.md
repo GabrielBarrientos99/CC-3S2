@@ -115,3 +115,4 @@ Cuando **el jugador X hace un movimiento ilegal fuera del tablero**
 
 Entonces **la celda no se cambia**
 
+# SPRINT 3
