@@ -32,4 +32,24 @@ Entonces **Se tendra en cuenta como referencia columnas no validas**
     
     
 ## Características del sprint 1
-    
+### Pregunta: Explica el funcionamiento de los siguientes código dentro del sprint1.
+
+public class TestBoardConsole {
+    private Board board;
+
+    @Before
+    public void setUp() throws Exception {
+   	 board = new Board();
+    }
+
+    @After
+    public void tearDown() throws Exception {
+    }
+
+    @Test
+    public void testEmptyBoard() {
+   	 new Console(board).displayBoard();
+    }
+
+}
+
