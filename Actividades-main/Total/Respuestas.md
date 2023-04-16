@@ -76,6 +76,15 @@ Entonces **Se tendra en cuenta como referencia columnas no validas**
     }
 }
 ```
+#### Explicacion
+
 La Clase TestBoardConsole posee un atributo privado Board board, el @Before indica que se ejecfutara antes
 de la preuba unitaria ,por lo tanto primero inicializa ese atributo y le asigna un espacio en la memoria
 "board = new Board" , Luego se ejecuta la funcion : public void testEmptyBoard() ,que utiliza una funcion del atributo ya inicializado **board** esta funcion se especifica en la clase Console ( muestra el tablero en la caonsola)
+
+#### Pregunta: Realiza la cobertura de código. Explica tus respuestas.
+Al realizar la cobertura del codigo nos salio como resultado porcentajes de lines covered en cada clase de prueba. Esto indica cuantas lienas de esta clase son usadas para capcturar alguna exception
+
+## SPRINT 2
+
+
