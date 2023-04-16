@@ -55,4 +55,27 @@ Entonces **Se tendra en cuenta como referencia columnas no validas**
          new Console(board).displayBoard();
         }
     }
+    ////////////////////////////////////////////////////
+    
+    public class Console {
+    private Board board;
+
+    public Console(Board board) {
+   	 this.board = board;
+    }
+
+    public void displayBoard() {
+   	 for (int row = 0; row<3; row++) {
+   		 System.out.println("-------");
+   		 System.out.print("|"+ board.getCell(row, 0));
+   		 System.out.print("|"+ board.getCell(row, 1));
+   		 System.out.print("|"+ board.getCell(row, 2));
+   		 System.out.println("|");
+   	 }
+   	 System.out.println("-------");
+    }
+}
 ```
+La Clase TestBoardConsole posee un atributo privado Board board, el @Before indica que se ejecfutara antes
+de la preuba unitaria ,por lo tanto primero inicializa ese atributo y le asigna un espacio en la memoria
+"board = new Board" , Luego se ejecuta la funcion : public void testEmptyBoard() que es propia del otro codigo de la clase Console
