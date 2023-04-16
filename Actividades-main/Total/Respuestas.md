@@ -37,6 +37,7 @@ Entonces **Se tendra en cuenta como referencia columnas no validas**
 ## Características del sprint 1
 ### Pregunta: Explica el funcionamiento de los siguientes código dentro del sprint1.
 
+```python
     public class TestBoardConsole {
         private Board board;
 
@@ -56,3 +57,4 @@ Entonces **Se tendra en cuenta como referencia columnas no validas**
 
     }
 
+```
