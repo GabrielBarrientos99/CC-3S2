@@ -116,3 +116,52 @@ Cuando **el jugador X hace un movimiento ilegal fuera del tablero**
 Entonces **la celda no se cambia**
 
 # SPRINT 3
+
+### AC5.1 Primer movimiento por el computador
+
+Dado **que la computadora juega 'X'**
+
+Cuando **el jugador humano comienza un nuevo juego**
+
+Entonces **la computadora hace un movimiento aleatorio válido (X)** 
+
+Y **el turno se cambia a O (jugador humano)**
+
+### AC 5.2 Una jugada ganadora de la computadora 
+
+Dado **Una jugada de la computadora**
+
+Cuando **Completa una linea de X o O**
+
+Entonces **la computadora realiza esa jugada, asegurando su victoria en el juego.**
+
+Y  **si la computadora no encuentra una jugada ganadora en este turno, buscará la mejor jugada posible para bloquear al oponente**
+
+### AC 5.3 Una jugada de bloqueo de la computadora
+
+Dado **Una jugada del jugador X**
+
+Cuando **se cumpla una secuencia de OO del jugador**
+
+Y **Le toque el turno a la computadora**
+
+Entonces **esta intentara evitar que gane ese punto**
+
+### AC 5.4 Un movimiento aleatorio de la computadora
+
+Dado un juego en curso  
+
+Cuando el jugador humano hace un movimiento válido
+
+Y el oponente de la computadora no tiene un movimiento ganador
+
+Y el jugador humano no tiene el próximo movimiento ganador
+
+Entonces la computadora hace un movimiento aleatorio 
+
+Y se cambia de turno
+
+
+
+
+
