@@ -88,3 +88,30 @@ Al realizar la cobertura del codigo nos salio como resultado porcentajes de line
 ## SPRINT 2
 
 
+### AC 2.1 Un movimiento X válido 
+
+Dado **Un movimiento de X**
+
+Cuando **permancesca en los limites del tablero**
+
+Entonces **se coloca O en la celda**
+
+Y **el turno se cambia a X**
+
+### AC 2.2 Un movimiento X ilegal en una celda ocupada
+
+Dado **un juego en curso con el turno de X**
+
+Cuando **el jugador X hace un movimiento ilegal dentro del tablero **
+
+Entonces **no se cambia la celda Y no se cambia el turno**
+
+
+### AC 2.3 Un movimiento X ilegal fuera del tablero
+
+Dado **un juego en curso con el turno de X **
+
+Cuando **el jugador X hace un movimiento ilegal fuera del tablero**
+
+Entonces **la celda no se cambia**
+
