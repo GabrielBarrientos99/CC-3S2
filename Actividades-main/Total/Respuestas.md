@@ -78,4 +78,4 @@ Entonces **Se tendra en cuenta como referencia columnas no validas**
 ```
 La Clase TestBoardConsole posee un atributo privado Board board, el @Before indica que se ejecfutara antes
 de la preuba unitaria ,por lo tanto primero inicializa ese atributo y le asigna un espacio en la memoria
-"board = new Board" , Luego se ejecuta la funcion : public void testEmptyBoard() que es propia del otro codigo de la clase Console
+"board = new Board" , Luego se ejecuta la funcion : public void testEmptyBoard() ,que utiliza una funcion del atributo ya inicializado **board** esta funcion se especifica en la clase Console ( muestra el tablero en la caonsola)
