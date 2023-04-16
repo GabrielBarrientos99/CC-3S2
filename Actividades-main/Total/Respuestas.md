@@ -7,9 +7,9 @@ Historia de usuario 2: Como jugador X, necesito colocar una ficha en un tablero 
 Historia de usuario 3: Como jugador, necesito saber si el juego termina después de cada movimiento.
 
 AC 1.1 Tablero vacío 
-Cuando **Se inicia el juego o se reinicia la partida ,el juego estará vacio.**
-Entonces **El jugador tendra que hacer el primer movimiento**
-Y **A partir de ahi los jugadores se alternaran**
+> Cuando **Se inicia el juego o se reinicia la partida ,el juego estará vacio.**
+> Entonces **El jugador tendra que hacer el primer movimiento**
+> Y **A partir de ahi los jugadores se alternaran**
 
 AC 1.2 Referencia de fila no válida
 Dado **Un tamaño de tablero**
