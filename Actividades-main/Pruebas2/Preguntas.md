@@ -38,3 +38,20 @@ valors = [ ] (lista vacia)
 valores = [9, 8, 7, 6, 5, 4, 3, 2, 1, 0]
 
 ```
+## Pruebas unitarias y de integración
+### Ejercicio
+
+Haces la masa para la base, la horneas sola y ves lo crocante y sabrosa que queda. Esto es **Una prueba unitaria para el modulo que hace la masa para la corteza**
+
+Decides comprar una mezcla de especias prefabricada en una tienda especializada. Haces una salsa con las especias y luego la pruebas. Esto es **Un prueba unitaria para el modulo de la salsa**
+
+Pones salsa y aderezos en una corteza y la horneas, para ver si la corteza todavía se cocina bien con las cosas húmedas encima. Esto es **Una prueba unitaria para el modulo que prepara el queso y los otros productos**
+
+
+
+
+
+
+
+
+
