@@ -1,5 +1,5 @@
 package shapes;
 
 public interface Shape {
-   // Completa
+    void draw(Graphics g);
 }
