@@ -77,3 +77,43 @@ Un bloque de código se puede intercambiar con seguridad por otro si puede manej
 **Respuesta** No deberiamos ampliar la clase rectangulo con la clase square porque  haria que esta clase herede dos atributos que pueden ser diferentes y logre fallar la logica de porque fue creado esta clase cuadrado.
 
 ### OCP
+
+OCP nos ayuda a escribir código al que podemos agregar nuevas funciones, sin cambiar el código en sí. Esto suena como una imposibilidad al principio, pero fluye naturalmente de DIP combinado con LSP. OCP da como resultado un código que está abierto a la extensión pero cerrado a la modificación. 
+
+Revisemos la refactorización de código que hicimos a la luz de OCP. Comencemos con el código original de la clase `Shapes`, de la siguiente manera: 
+
+```
+public class Shapes {
+    private final List<Shape> allShapes = new ArrayList<>();
+      public void add(Shape s) {
+    	allShapes.add(s);
+       }
+      public void draw(Graphics g) {
+    	for (Shape s : allShapes) {
+                switch (s.getType()) {
+                  case "textbox":
+                	var t = (TextBox) s;
+                	g.drawText(t.getText());
+                	break;
+                  case "rectangle":
+                	var r = (Rectangle) s;
+                	for (int row = 0;
+                           row < r.getHeight();
+                      	       row++) {
+                    	    g.drawLine(0, r.getWidth());
+                	}
+        	  }
+           }
+       }
+ }
+``` 
+
+Agregar un nuevo tipo de forma requiere la modificación del código dentro del método `draw()`. Agregaremos una nueva declaración de caso para respaldar la nueva forma. 
+
+**Pregunta:** ¿La modificación del código existente produce varias desventajas?. Si es afirmativo indica cuales serían.
+
+**Respuesta** Si porque tendriamos que agregar un caso nuevo de switch para poder agregar un tipo nuevo de shape
+
+### ISP
+
+
