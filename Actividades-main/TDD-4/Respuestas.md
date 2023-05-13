@@ -1,4 +1,5 @@
 ## PREGUNTAS TDD4
+### RSP
 Para ver el valor de aplicar SRP, consideremos un fragmento de código que no lo usa. El siguiente fragmento de código tiene una lista de formas que se dibujan cuando llamamos al método `draw()`: 
 
 ```
@@ -32,6 +33,8 @@ public class Shapes {
 **Respuesta** No puedo porque soy bajito ,pero puedo intentarlo la clase Shapes tiene la responsabilidad de agregar un elemento tipo Shape a una lista que posee como atributo gracias al metodo **public void add(Shape s)** . Luego tiene la
 responsabilidad de dibujar un grafico dependiendo si es un rectangulo o un textbox gracias al metodo **public void draw(Graphics g)** . A la vez dentro de esta funcion se encarga de analisar cada objeto del array si es un rectangulo o textbox y dibujar.
 
+
+### DIP
 
 **Pregunta:** Este código funciona bien para mantener una lista de objetos `Shape` y dibujarlos. ¿Cuál es el problema que sucede aquí?.
 
