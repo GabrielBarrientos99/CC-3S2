@@ -49,4 +49,31 @@ El término técnico para que una clase conozca a otra es que existe una depende
 
 **Respuesta** Por que si deseamos agregar un tipo mas de shape tendriamos que agregar a la vez mas casos en el switch.
 
+### lSP
 
+Todas las clases que implementan `Shape` se ajustan a LSP. Esto es claro en la clase `TextBox`, como podemos ver aquí: 
+
+```
+public class TextBox implements Shape {
+    private final String text;
+    
+   public TextBox(String text) {
+      this.text = text;
+       }
+     @Override
+      public void draw(Graphics g) {
+    	g.drawText(text);
+	}
+}
+``` 
+**Pregunta:** ¿Qué sucede en el código anterior?.
+
+**Respuesta** Vemos que las clases que impementen Shape no rompen la logica de su clase padre es decir puedo utilizar la interfaz sin problema y definir con un override una funcion para esa propia clase.
+
+Un bloque de código se puede intercambiar con seguridad por otro si puede manejar la gama completa de entradas y proporcionar (al menos) todas las salidas esperadas, sin efectos secundarios no deseados. 
+
+**Pregunta:** Hay algunas violaciones sorprendentes de LSP. Quizás el clásico para el ejemplo de código del ejemplo se trata de agregar una clase `Square`. En código Java, ¿deberíamos hacer que la clase Square amplíe la clase Rectangle? ¿Qué pasa con la clase Rectangle extendiendo Square?.
+
+**Respuesta** No deberiamos ampliar la clase rectangulo con la clase square porque  haria que esta clase herede dos atributos que pueden ser diferentes y logre fallar la logica de porque fue creado esta clase cuadrado.
+
+### OCP
