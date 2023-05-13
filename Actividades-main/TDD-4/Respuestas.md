@@ -34,6 +34,7 @@ responsabilidad de dibujar un grafico dependiendo si es un rectangulo o un textb
 
 
 **Pregunta:** Este código funciona bien para mantener una lista de objetos `Shape` y dibujarlos. ¿Cuál es el problema que sucede aquí?.
+
 **Respuesta** El problema sucede que la clase shape debe de conocer sobre el tipo de objeto que quiere dibujar y esto puede causar problemas debido a esa dependencia.Por lo tanto es recomendable usar una interfaz para gracias a ella aplicar el polimorfismo de la funcion draw y evitar poder aumentar mas casos de switch si en todo caso se agregaran mas tipos de shape.
 
 El término técnico para que una clase conozca a otra es que existe una dependencia entre ellas. La clase `Shapes` depende de las clases `TextBox` y `Rectangle`. Podemos representar eso visualmente en el siguiente diagrama de clases UML: 
