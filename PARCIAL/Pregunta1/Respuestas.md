@@ -1,5 +1,5 @@
 ## PREGUNTA 1
-Tenemos entonces el codigo con una clase base y sus subclases pero hay un incoveniente con LSP una de sus hijas no funciona bien
+Tenemos entonces el codigo con una clase base y sus subclases ,pero hay un incoveniente con LSP una de sus hijas no funciona bien
 ``` python
 public abstract class Member {
     private final String nombre;
