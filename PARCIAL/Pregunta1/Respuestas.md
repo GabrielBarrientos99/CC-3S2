@@ -2,7 +2,7 @@
 Tenemos entonces el codigo con una clase base y sus subclases ,pero hay un incoveniente con LSP una de sus hijas no funciona bien
 ``` python
 public abstract class Member {
-    private final String nombre;
+    private final String name;
     public Member(String nombre) {
         this.name = nombre;
     }
@@ -61,7 +61,7 @@ poder organizar Torneos por lo tanto la funcion organize Tournament no deberia e
 
 ```python
 public abstract class Member {
-  private final String nombre;
+  private final String name;
   public Member(String nombre) {
   this.name = nombre;
   }
