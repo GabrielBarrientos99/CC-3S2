@@ -56,8 +56,8 @@ public class FreeMember extends Member {
     }
 }
 ```
-Se entiende que esta clase base va tener clases hijas pero una de esas clases que es la FreeMember no deberia
-poder organizar Torneos por lo tanto la funcion organize Tournament no deberia estar en la clase base
+Se entiende que esta clase base va tener clases hijas ,pero una de esas clases ,que es la FreeMember ,no deberia
+poder organizar Torneos por lo tanto la funcion organize Tournament no deberia estar en la clase base. Qeudando de la siguiente manera:
 
 ```python
 public abstract class Member {
@@ -68,7 +68,8 @@ public abstract class Member {
   public abstract void joinTournament();  
 }
 ```
-Entonces podriamos crear una interfaz que posea esa funcion
+Entonces podriamos crear una interfaz que posea esa funcion que le hemos quitado.Ademas creariamos la Clase Controler que seria la que implementaria esta interfaz
+Como primera solucion que podriamos dar :
 
 
 ```python
@@ -84,7 +85,7 @@ public class Controller implements Organizador {
     }    
 }
 ```
-
+Luego las demas clases quedarian asi :
 ```python
 public abstract class Member {
   private final String nombre;
@@ -127,9 +128,11 @@ public class FreeMember extends Member {
     }    
 }
 ```
-Entonces ahora solo quedaria usar la clase Controller para organizar , puede haber una mejor manera de refactorizar, pero esta idea tambien soluciona la LSP
+Entonces ahora solo quedaria usar la clase Controller para organizar , puede haber una mejor manera de refactorizar, pero esta idea tambien soluciona la LSP.
 
-Ademas habiendo creado un interfaz podemos hacer que cada subclase implemente esa interfaz si es que no se quiere que otra subclase como "Controller" sea la que organize Tournament de la siguiente manera :
+Como segunda alternativa :
+
+Ademas habiendo creado un interfaz podemos hacer que cada subclase implemente esa interfaz ,si es que no se quiere que otra subclase como "Controller" sea la que organize Tournament, de la siguiente manera :
 ```python
 public class PremiumMember extends Member implements Organizador {
     public PremiumMember(String nombre) {
@@ -165,7 +168,16 @@ public class VipMember extends Member implements Organizador {
         System.out.println("...");
     }
 }
+
+public class FreeMember extends Member {
+    public FreeMember(String nombre) {
+        super(nombre);
+    }
+    @Override
+    public void joinTournament() {
+        System.out.println(".....");
+    }
+    
+}
 ```
-
-
 
