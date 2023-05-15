@@ -70,15 +70,7 @@ public abstract class Member {
 ```
 Entonces podriamos crear una interfaz que posea esa funcion
 
-```python
-public abstract class Member {
-  private final String nombre;
-  public Member(String nombre) {
-  this.name = nombre;
-  }
-  public abstract void joinTournament();  
-}
-```
+
 ```python
 public interface Organizador {
     public void organizeTournament();
@@ -89,6 +81,39 @@ public class Controller implements Organizador {
     @Override
     public void organizeTournament() {
         System.out.println("...");
+    }    
+}
+```
+
+```python
+public abstract class Member {
+  private final String nombre;
+  public Member(String nombre) {
+  this.name = nombre;
+  }
+  public abstract void joinTournament();  
+}
+```
+
+```python
+
+public class VipMember extends Member {
+    public FreeMember(String name) {
+        super(nombre);
+    }
+    @Override
+    public void joinTournament() {
+        System.out.println(".....");
+    }    
+}
+
+public class FreeMember extends Member {
+    public FreeMember(String name) {
+        super(nombre);
+    }
+    @Override
+    public void joinTournament() {
+        System.out.println(".....");
     }    
 }
 ```
