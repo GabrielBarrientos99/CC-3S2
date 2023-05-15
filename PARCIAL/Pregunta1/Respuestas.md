@@ -96,6 +96,16 @@ public abstract class Member {
 ```
 
 ```python
+public class PremiumMember extends Member {
+    public PremiumMember(String nombre) {
+        super(nombre);
+    }
+    @Override
+    public void organizeTournament(){
+        System.out.println(" ");
+    }
+
+}
 
 public class VipMember extends Member {
     public FreeMember(String name) {
