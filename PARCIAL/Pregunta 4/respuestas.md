@@ -19,3 +19,24 @@ En conclusion se propone la idea de ser sistematico para lograr la efectividad o
 
 (b) Pruebas (2 puntos)
 
+Dividir una cadena en un caracter delimitador
+
+parametro1 - texto -> una cadena
+parametro2 - delimitador -> delimitador por el cual dividir la cadena
+parametro3 - limite -> limite superior en el numero de elementos a devolver
+
+``` python
+public static List<String> split(String text, char delim, int limit){
+    
+}
+``` 
+
+(a) Comienza a implementar una estrategia de prueba sistemática para esta función
+escribiendo una buena partición del espacio de entrada solo en el límite de entrada, es
+decir, la partición no debe mencionar ni el texto ni el delimitador.
+
+
+
+(b) Ahora, escriba una buena partición del espacio de entrada sobre la relación entre el
+límite y las ocurrencias del delimitador en el texto. Tu partición debe mencionar las tres
+entradas.
