@@ -25,6 +25,12 @@ parametro1 - texto -> una cadena
 parametro2 - delimitador -> delimitador por el cual dividir la cadena
 parametro3 - limite -> limite superior en el numero de elementos a devolver
 
+entonces la funcion : public static List<String> split(String text, char delim, int limit)
+    va retornar [s1 ,s2 ,s3 , ... , sN] ; Donde N <=limite , siempre qe limite es > 0
+    
+Entonces aqui podemos analizar que sucede si ingreso como parametro limite < 0 
+Ejmp :  split("abc.er.s", ".", 0)                                
+
 ``` python
 public static List<String> split(String text, char delim, int limit){
     
