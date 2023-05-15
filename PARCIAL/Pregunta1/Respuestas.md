@@ -131,9 +131,19 @@ public class FreeMember extends Member {
 Entonces ahora solo quedaria usar la clase Controller para organizar , puede haber una mejor manera de refactorizar, pero esta idea tambien soluciona la LSP.
 
 Como segunda alternativa :
-
-Ademas habiendo creado un interfaz podemos hacer que cada subclase implemente esa interfaz ,si es que no se quiere que otra subclase como "Controller" sea la que organize Tournament, de la siguiente manera :
+Dejariamos la clase Member sin la funcion organizeTournament
 ```python
+public abstract class Member {
+    private final String nombre;
+    public Member(String nombre) {
+        this.name = nombre;
+    }
+    public abstract void joinTournament();    
+}
+```
+Y Habiendo creado un interfaz podemos hacer que cada subclase implemente esa interfaz ,si es que no se quiere que otra subclase como "Controller" sea la que organize Tournament, de la siguiente manera :
+```python
+
 public class PremiumMember extends Member implements Organizador {
     public PremiumMember(String nombre) {
         super(nombre);
