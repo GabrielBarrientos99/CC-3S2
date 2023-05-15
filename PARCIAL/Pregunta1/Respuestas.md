@@ -109,7 +109,7 @@ public class PremiumMember extends Member {
 }
 
 public class VipMember extends Member {
-    public FreeMember(String name) {
+    public VipMember(String name) {
         super(nombre);
     }
     @Override
