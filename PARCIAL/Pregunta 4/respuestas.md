@@ -54,15 +54,15 @@ Límite < 0: Prueba el caso en el que el límite es negativo.
 límite y las ocurrencias del delimitador en el texto. Tu partición debe mencionar las tres
 entradas.
 
-Caso donde es igual a cero: split("abc.er.s",".",0)
+- Caso donde es igual a cero: split("abc.er.s",".",0)
 
 En este caso el limite se establece en cero, lo que significa que no va devolver nada es decir va retornar una lista vacia bueno eso de aceurdo a como lo implementes.
 
-Caso donde el limite es mayor que el numero de ocurrencias del delimitador en el texto : split("abc.er.s",".",5)
+- Caso donde el limite es mayor que el numero de ocurrencias del delimitador en el texto : split("abc.er.s",".",5)
 
 Aqui hay un problema porque el limite se establece mayor al numero de ocurrencias del delimitador del texto. En este ejemplo solo hay 2 ocurrencias de "." por lo tanto de acuerdo a como lo programes puedes devolver una lista con su split correctamente como podrias devolver ["abc","er","s","",""] o ["abc","er","s"] .
 
-Caso Donde el limite es menor al numero de ocurrencias pero es mayor que 0 :split("abc.er.s", ".", 2)
+- Caso Donde el limite es menor al numero de ocurrencias pero es mayor que 0 :split("abc.er.s", ".", 2)
 
 En este caso el limite se establece en un numero menor de ocurrencias y daria solo los primeros valores de la lista:
 ["abc","er"] o de acuerdo como lo programes podria escoger los dos con mayor numero de caracteres.
