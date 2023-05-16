@@ -45,9 +45,9 @@ escribiendo una buena partición del espacio de entrada solo en el límite de en
 decir, la partición no debe mencionar ni el texto ni el delimitador.
 
 Podemos analizar los siguientes casos del limite
-Límite = 0: Prueba el caso en el que el límite es cero.
-Límite > 0: Prueba el caso en el que el límite es mayor que cero.
-Límite < 0: Prueba el caso en el que el límite es negativo.
+- Límite = 0: Prueba el caso en el que el límite es cero.
+- Límite > 0: Prueba el caso en el que el límite es mayor que cero.
+- Límite < 0: Prueba el caso en el que el límite es negativo.
 
 
 (b) Ahora, escriba una buena partición del espacio de entrada sobre la relación entre el
