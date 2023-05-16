@@ -1,6 +1,7 @@
 ## Pregunta 4 (6 puntos)
 
-(a) ¿Qué son las pruebas efectivas y sistemáticas? Referencia:
+(a) ¿Qué son las pruebas efectivas y sistemáticas?
+
 **Respuesta**
 Existen pruebas que siguen de un enfoque intuitivo ,pero eso depende de la persona o ingeniero que hace la prueba,Por ejemplo los ingenieros Seniors y los ingenieron msa jovenes por si decirlo no podrian tener un enfoque asi de efectivo.
 
