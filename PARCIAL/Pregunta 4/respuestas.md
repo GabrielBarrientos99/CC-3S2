@@ -15,6 +15,7 @@ Esto consta de 4 pasos principales :
 - Si no se puede utilizar pruebas unitarias , ir a  las pruebas de integracion
 
 En conclusion se propone la idea de ser sistematico para lograr la efectividad o equipararse a esta.
+
 **----------------------------------**
 
 (b) Pruebas (2 puntos)
