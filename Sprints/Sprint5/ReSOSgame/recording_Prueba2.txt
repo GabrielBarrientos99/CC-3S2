@@ -1,0 +1,11 @@
+Movimiento de la computadora:
+Turno:[JAZUL]
+Casilla: [2, 0]
+Valor de ficha: S
+-------
+| | | |
+-------
+| | | |
+-------
+|S| | |
+-------
