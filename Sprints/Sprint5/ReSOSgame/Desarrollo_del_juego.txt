@@ -1,1 +1,143 @@
-
+Movimiento de la computadora:
+Turno:[JAZUL]
+Casilla: [0, 0]
+Valor de ficha: S
+-------
+|S| | |
+-------
+| | | |
+-------
+| | | |
+-------
+Movimiento de la computadora:
+Turno:[JROJO]
+Casilla: [0, 1]
+Valor de ficha: S
+-------
+|S|S| |
+-------
+| | | |
+-------
+| | | |
+-------
+Movimiento de la computadora:
+Turno:[JAZUL]
+Casilla: [0, 2]
+Valor de ficha: S
+-------
+|S|S|S|
+-------
+| | | |
+-------
+| | | |
+-------
+Movimiento de la computadora:
+Turno:[JROJO]
+Casilla: [1, 0]
+Valor de ficha: S
+-------
+|S|S|S|
+-------
+|S| | |
+-------
+| | | |
+-------
+Movimiento de la computadora:
+Turno:[JAZUL]
+Casilla: [2, 0]
+Valor de ficha: S
+-------
+|S|S|S|
+-------
+|S| | |
+-------
+|S| | |
+-------
+Movimiento de la computadora:
+Turno:[JROJO]
+Casilla: [1, 2]
+Valor de ficha: S
+-------
+|S|S|S|
+-------
+|S| |S|
+-------
+|S| | |
+-------
+Movimiento de la computadora:
+Turno:[JAZUL]
+Casilla: [2, 2]
+Valor de ficha: O
+-------
+|S|S|S|
+-------
+|S| |S|
+-------
+|S| |O|
+-------
+Movimiento de la computadora:
+Turno:[JROJO]
+Casilla: [2, 1]
+Valor de ficha: O
+-------
+|S|S|S|
+-------
+|S| |S|
+-------
+|S|O|O|
+-------
+Movimiento de la computadora:
+Turno:[JAZUL]
+Casilla: [1, 1]
+Valor de ficha: S
+-------
+|S|S|S|
+-------
+|S|S|S|
+-------
+|S|O|O|
+-------
+Movimiento de la computadora:
+Turno:[JAZUL]
+Casilla: [1, 1]
+Valor de ficha: S
+-------
+|S|S|S|
+-------
+|S|S|S|
+-------
+|S|O|O|
+-------
+Movimiento de la computadora:
+Turno:[JAZUL]
+Casilla: [1, 1]
+Valor de ficha: S
+-------
+|S|S|S|
+-------
+|S|S|S|
+-------
+|S|O|O|
+-------
+Movimiento de la computadora:
+Turno:[JAZUL]
+Casilla: [1, 1]
+Valor de ficha: S
+-------
+|S|S|S|
+-------
+|S|S|S|
+-------
+|S|O|O|
+-------
+Movimiento de la computadora:
+Turno:[JAZUL]
+Casilla: [1, 1]
+Valor de ficha: S
+-------
+|S|S|S|
+-------
+|S|S|S|
+-------
+|S|O|O|
+-------

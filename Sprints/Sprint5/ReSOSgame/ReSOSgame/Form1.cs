@@ -211,6 +211,7 @@ namespace ReSOSgame
             if (controller.Player1 is Computer && controller.Player2 is Human)
             {
                 controller.CurrentPlayer.MakeMove(0, 0, 0, controller.Juego); // Realiza el movimiento del jugador de tipo Computer
+                consola.WriteBoardToFile(file);
                 PaintGrid();
                 ShowGameStatus();
                 ShowTurn();
@@ -239,6 +240,7 @@ namespace ReSOSgame
                 Invoke((MethodInvoker)delegate
                 {
                     controller.CurrentPlayer.MakeMove(0, 0, 0, controller.Juego);
+                    consola.WriteBoardToFile(file);
                     PaintGrid();
                     ShowGameStatus();
                     ShowTurn();
