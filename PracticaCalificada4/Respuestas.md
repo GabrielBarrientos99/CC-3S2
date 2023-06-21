@@ -223,5 +223,26 @@ Segun la herramiento de ayuda proporcionada cumple ademas otros casos:
 ![imagen](https://github.com/GabrielBarrientos99/CC-3S2/assets/129352498/e5ba4df0-f6dd-4545-887e-db56da843364)
 
 
+Pregunta 4 (3 puntos) En la resolución de las preguntas dadas anteriorermente se pierde muchos casos de
+prueba interesantes. Incluso sin realizar pruebas de especificación sistemáticas, en un programa que cuenta
+clumps, es natural probar el programa con varios clumps en lugar de uno solo. Experimenta con el último
+clump en el último elemento del arreglo o con un conjunto que tiene un clump que comienza en la primera
+posición. ¿Qué pasa con el código cobertura de ramas?.
+
+Veamos .Entonces Sea T6 y T7 :
+
+T6 :  countClumps([1, 2, 3, 3]) → 1
+
+T7 :  countClumps([1, 1, 2, 3, 4]) → 1
+
+Añadimos el T6 Y T7:
+
+![imagen](https://github.com/GabrielBarrientos99/CC-3S2/assets/129352498/0c142630-9863-4c88-a609-f0329210a90e)
+
+Cobertura:
+![imagen](https://github.com/GabrielBarrientos99/CC-3S2/assets/129352498/b0b6d2c9-2218-4b2d-aad9-a4a5af6fc905)
+
+La cobertura sigue siendo la misma porque ya habia realizado pruebas similares en los t1-t3.
+
 
 
