@@ -12,19 +12,51 @@ Si se viola una precondicion returns 0
 ```python
 public int countClumps(int[] nums) {
   int numClumps = 0;
-  
+  for (int i=0;i<nums.length;i++)
+  {
+
+  }
   
 }
 ```
 
 Pregunta 1 (2 puntos)
 
-scribe una implementación del problema dado
+Escribe una implementación del problema dado
 Supongamos que decidimos no mirar los requisitos. Queremos lograr, digamos, el 100% de cobertura de
 ramas.
 
+  Escribiendo una implementacion tendriamos lo siguiente :
 
-regunta 2 (1 puntos) Escribe tres pruebas para hacer eso (T1-T3). También agrega algunas pruebas de
+```python
+
+public int countClumps(int[] nums) {
+  
+  if(nums==null || nums.length ==0) return 0;
+  
+  int numClumps = 0;
+  int v1 = nums[0];
+  boolean bandera = false;
+  for (int i=1;i<nums.length;i++)
+  {
+     if(nums[i]!=v1)
+     {
+        v1=nums[i];
+        bandera = false;
+        
+     }else if(nums[i]==v1 && bandera == false ){
+      numClumps++;
+      bandera =true;
+     }
+  }
+  return numClumps;
+
+}
+
+```
+
+
+Pregunta 2 (1 puntos) Escribe tres pruebas para hacer eso (T1-T3). También agrega algunas pruebas de
 límites adicionales (T4)
 
 Pregunta 3 (2 puntos) Anota estas tres pruebas como casos de prueba automatizados (JUnit) y ejecuta la
