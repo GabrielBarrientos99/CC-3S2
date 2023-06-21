@@ -5,7 +5,8 @@ El programa debe contar el número de clumps en un arreglo. Un clumps es una sec
 con una longitud de al menos 2.
 
 Precondiciones : nums != null y nums.length>0
-Postcondiciones : numClumps 
+
+Postcondiciones : numClumps ,
 Si se viola una precondicion returns 0
 
 
