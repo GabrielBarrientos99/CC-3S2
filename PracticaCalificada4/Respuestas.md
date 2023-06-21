@@ -72,7 +72,7 @@ T2 : 'nums' tiene 2 Clumps
 T3 : 'nums' tiene 0 Clumps
 
 
-**Pruebas adicionales:**
+**Pruebas limites adicionales:**
 
 T4 : `nums` es `null`
 
