@@ -135,7 +135,7 @@ public class Clumps {
 
 ```
 
-Como podemos notar las precondiciones no estan verificadas en el codigo debido a que en primer lugar
+Como podemos notar las precondiciones no estan verificadas en el codigo ,debido a que en primer lugar,
 te pidió implementar sin los requisitos.Entonces me va salir error en los casos de prueba LIMITES.
 
 ```python
@@ -161,6 +161,9 @@ class ClumpsOnlyStructuralTest {
 
 }
 ```
+
+![imagen](https://github.com/GabrielBarrientos99/CC-3S2/assets/129352498/8bfbd5de-7584-4f2b-a8d0-0348da4a324c)
+
 
 
 
