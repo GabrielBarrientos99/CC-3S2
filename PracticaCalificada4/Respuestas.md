@@ -95,6 +95,75 @@ T5 :  countClumps([]) → 0
 Pregunta 3 (2 puntos) Anota estas tres pruebas como casos de prueba automatizados (JUnit) y ejecuta la
 herramienta de cobertura de código favorita. Muestra los resultados
 
+Entonces inicialmente tenemos lo siguiente, lo sobreescribí en la actividad de pruebas estructurales, pero hice 
+una implementacion a mi lógica:
+
+
+```python
+
+public class Clumps {
+    /**
+     * Un clump es una secuencia del mismo elemento con a sequence of
+     *  una longitud de al menos 2.     *
+     * @param nums
+     * @precond : nums != null y nums.length>0
+     * @potcond : numClumps ,
+     * Si se viola una precondicion returns 0
+     *
+     */
+    public static int countClumps(int[] nums) {
+
+        int numClumps = 0;
+        int v1 = nums[0];
+        boolean bandera = false;
+        for (int i=1;i<nums.length;i++)
+        {
+            if(nums[i]!=v1)
+            {
+                v1=nums[i];
+                bandera = false;
+
+            }else if(nums[i]==v1 && bandera == false ){
+                numClumps++;
+                bandera =true;
+            }
+        }
+        return numClumps;
+
+    }
+}
+
+```
+
+Como podemos notar las precondiciones no estan verificadas en el codigo debido a que en primer lugar
+te pidió implementar sin los requisitos.Entonces me va salir error en los casos de prueba LIMITES.
+
+```python
+
+class ClumpsOnlyStructuralTest {
+    @ParameterizedTest
+    @MethodSource("generator")
+    void testClumps(int[] nums, int expectedNoOfClumps) {
+        assertThat(Clumps.countClumps(nums))
+                .isEqualTo(expectedNoOfClumps);
+    }
+
+    static Stream<Arguments> generator() {
+        return Stream.of(
+                of(new int[]{1,1,1,1,1}, 1), //T1
+                of(new int[]{1,1,2,1,1}, 2), // T2
+                of(new int[]{1,2,3}, 0), // T3
+                // Pruebas limites adicionales
+                of(null, 0),
+                of(new int[]{}, 0)
+        );
+    }
+
+}
+```
+
+
+
 
 
 
