@@ -244,5 +244,45 @@ Cobertura:
 
 La cobertura sigue siendo la misma porque ya habia realizado pruebas similares en los t1-t3.
 
+Pregunta 2 (5 puntos)
+En esta pregunta, aplicaremos lo que hemos aprendido escribiendo una prueba para una clase que elegirá una
+palabra al azar para que el jugador la adivine, de un conjunto de palabras almacenadas. Utiliza la aplicación
+Wordz realizada en actividades anteriores para crear una interfaz llamada WordRepository para acceder a las
+palabras almacenadas. Realiza esto con un método fetchWordByNumber(wordNumber), donde wordNumber
+identifica una palabra. La decisión de diseño aquí es que cada palabra se almacene con un número secuencial a
+partir de 1 para ayudarnos a elegir una al azar.
+Escribe una clase WordSelection, que sea responsable de elegir un número aleatorio y usarlo para obtener una
+palabra del almacenamiento que está etiquetada con ese número. Para este ejercicio, la prueba cubrirá el
+caso en el que intentamos obtener una palabra de la interfaz de WordRepository, pero por alguna razón, no
+está allí.
+
+El esqueleto de la prueba es:
+```python
+public class WordSelectionTest {
+private WordRepository repository;
+...
+public void reportsWordNotFound() {
+doThrow(new WordRepositoryException())
+.when(repository)
+.fetchWordByNumber(anyInt());
+...
+assertThatExceptionOfType(WordSelectionException.class)
+.isThrownBy(
+()->selection.getRandomWord());
+}
+}
+
+```
+
+Preguntas:
+1. Construye el SUT , completa y explica el código de prueba generado.
+2. Indica los pasos Act y Assert de la prueba.
+3. Ejecuta la prueba. ¿Pasa la prueba?. Agrega la lógica necesaria para que la prueba pase.
+4. Indica el código de cobertura obtenido y compara estos resultados con las actividades anteriores de la
+aplicación Wordz. ¿Qué diferencias encuentras?.
+5. Muestra en que parte de tu código podemos usar dobles de prueba y la verificación de condiciones
+de error con TDD . Indica algunas decisiones de diseño en esta prueba sobre qué excepciones ocurren
+y dónde se usan
+
 
 
