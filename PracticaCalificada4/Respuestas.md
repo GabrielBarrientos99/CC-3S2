@@ -168,9 +168,59 @@ Aplicamos la covertura de Jacoco
 
 ![imagen](https://github.com/GabrielBarrientos99/CC-3S2/assets/129352498/cc424bbd-bbe5-4d5e-9943-770218b3cc4d)
 
+Notamos que el branch aun sigue en 87%. Por lo que falta solventar los casos limites:
+
+Reimplementamos :
 
 
+```python
 
+public class Clumps {
+    /**
+     * Un clump es una secuencia del mismo elemento con a sequence of
+     *  una longitud de al menos 2.     *
+     * @param nums
+     * @precond : nums != null y nums.length>0
+     * @potcond : numClumps ,
+     * Si se viola una precondicion returns 0
+     *
+     */
+    public static int countClumps(int[] nums) {
+        if(nums==null || nums.length ==0) return 0;
+        int numClumps = 0;
+        int v1 = nums[0];
+        boolean bandera = false;
+        for (int i=1;i<nums.length;i++)
+        {
+            if(nums[i]!=v1)
+            {
+                v1=nums[i];
+                bandera = false;
+
+            }else if(nums[i]==v1 && bandera == false ){
+                numClumps++;
+                bandera =true;
+            }
+        }
+        return numClumps;
+
+    }
+}
+
+```
+Le añadimos esta linea de codigo donde verificamos las precondiciones 
+![imagen](https://github.com/GabrielBarrientos99/CC-3S2/assets/129352498/09e7a6db-92bf-4ef1-9659-c0899074febb)
+
+
+![imagen](https://github.com/GabrielBarrientos99/CC-3S2/assets/129352498/af27b9cf-1fb6-4df8-a94c-ae59cd59f097)
+
+Cobertura :
+
+![imagen](https://github.com/GabrielBarrientos99/CC-3S2/assets/129352498/51d62fc4-cda1-4b40-ae67-80d3bb4cd9ae)
+
+Segun la herramiento de ayuda proporcionada cumple ademas otros casos:
+
+![imagen](https://github.com/GabrielBarrientos99/CC-3S2/assets/129352498/e5ba4df0-f6dd-4545-887e-db56da843364)
 
 
 
