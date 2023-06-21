@@ -78,10 +78,26 @@ T4 : `nums` es `null`
 
 T5 : `nums` es `vacio`
 
+----------------------------
+T1 :  countClumps([1, 1, 1, 1, 1]) → 1
 
+T2 :  countClumps([1, 1, 2, 1, 1]) → 2
 
+T3 :  countClumps([1, 2, 3]) → 0	
 
+----------------------------
+T4 :  countClumps(null) → 0
 
+T5 :  countClumps([]) → 0
+
+----------------------------
 
 Pregunta 3 (2 puntos) Anota estas tres pruebas como casos de prueba automatizados (JUnit) y ejecuta la
 herramienta de cobertura de código favorita. Muestra los resultados
+
+
+
+
+
+
+
