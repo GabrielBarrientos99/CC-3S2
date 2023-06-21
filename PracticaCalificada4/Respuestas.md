@@ -164,7 +164,9 @@ class ClumpsOnlyStructuralTest {
 
 ![imagen](https://github.com/GabrielBarrientos99/CC-3S2/assets/129352498/8bfbd5de-7584-4f2b-a8d0-0348da4a324c)
 
+Aplicamos la covertura de Jacoco
 
+![imagen](https://github.com/GabrielBarrientos99/CC-3S2/assets/129352498/cc424bbd-bbe5-4d5e-9943-770218b3cc4d)
 
 
 
