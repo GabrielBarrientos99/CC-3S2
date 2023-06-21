@@ -27,13 +27,11 @@ Escribe una implementación del problema dado
 Supongamos que decidimos no mirar los requisitos. Queremos lograr, digamos, el 100% de cobertura de
 ramas.
 
-  Escribiendo una implementacion tendriamos lo siguiente :
+  Escribiendo una implementacion tendriamos lo siguiente sin mirar los requisitos:
 
 ```python
 
-public int countClumps(int[] nums) {
-  
-  if(nums==null || nums.length ==0) return 0;
+public int countClumps(int[] nums) { 
   
   int numClumps = 0;
   int v1 = nums[0];
@@ -57,8 +55,33 @@ public int countClumps(int[] nums) {
 ```
 
 
-Pregunta 2 (1 puntos) Escribe tres pruebas para hacer eso (T1-T3). También agrega algunas pruebas de
-límites adicionales (T4)
+**Pregunta 2 (1 puntos) Escribe tres pruebas para hacer eso (T1-T3). También agrega algunas pruebas de
+límites adicionales (T4)**
+
+Parametros : `nums`
+  - `Null`
+  - Cadena vacía
+  - Cadena no vacía
+
+**Hay varios límites:**
+
+T1 : 'nums' tiene 1 Clumps
+
+T2 : 'nums' tiene 2 Clumps
+
+T3 : 'nums' tiene 0 Clumps
+
+
+**Pruebas adicionales:**
+
+T4 : `nums` es `null`
+
+T5 : `nums` es `vacio`
+
+
+
+
+
 
 Pregunta 3 (2 puntos) Anota estas tres pruebas como casos de prueba automatizados (JUnit) y ejecuta la
 herramienta de cobertura de código favorita. Muestra los resultados
