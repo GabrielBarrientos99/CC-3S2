@@ -1,4 +1,4 @@
-**NOTA : EXISTE UN MARKDOWN en cada Fase de la pregunta1**
+**NOTA : Existe un MARKDOWN en cada Fase de la pregunta1**
 ----
 
 Pregunta 1 TDD (6 puntos)
