@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Cuando tenemos un pasajero regular" tests="1" skipped="0" failures="0" errors="0" timestamp="2023-07-12T14:40:16" hostname="DESKTOP-L6DK0R4" time="0.005">
+  <properties/>
+  <testcase name="Entonces no puedes agregarlo o eliminarlo de un vuelo de negocios" classname="AirportTest$BusinessFlightTest$RegularPassenger" time="0.005"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
