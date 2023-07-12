@@ -7,9 +7,11 @@ En esta sección proponemos un inicio en el que no se defina aún las pruebas
 **Cuando el tipo de vuelo es `Economico`:**
 
 - Para una persona regular con la siguiente prueba:
+  
 ![img.png](img.png)
 
 - Para una persona vip con la siguiente prueba:
+  
 ![img_1.png](img_1.png)
 
 **Cuando el tipo de vuelo es `Negocios`:**
