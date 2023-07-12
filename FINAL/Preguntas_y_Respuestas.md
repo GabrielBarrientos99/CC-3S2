@@ -49,6 +49,7 @@ removePassenger a métodos abstractos y delegar su implementación a subclases. 
   
 - Implementa una clase BusinessFlight que amplía Flight e implementa los métodos abstractos heredados addPassenger y removePassenger.
  **[Ver markdown de fase2]**
+  
 ![image](https://github.com/GabrielBarrientos99/CC-3S2/assets/129352498/613d0b84-7050-4388-b04f-7d7ed27846b6)
   
   
