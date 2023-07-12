@@ -14,6 +14,7 @@ necesario colocar imágenes.
 
 También existe una política para la eliminación de pasajeros de los vuelos: un pasajero regular puede ser eliminado de un vuelo, pero un pasajero VIP no puede ser eliminado.
 Veamos el diseño inicial de esta aplicación. Tiene un campo llamado flightType en la clase Flight. Su valor determina el comportamiento de los métodos addPassenger y removePassenger. Los desarrolladores deben centrarse en la toma de decisiones a nivel del código para estos dos métodos.
+
 ----
 
 **Fase 1**
