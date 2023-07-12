@@ -46,11 +46,17 @@ El principio en acción aquí se llama principio abierto/cerrado.
 removePassenger a métodos abstractos y delegar su implementación a subclases. El campo flightType ya no es significativo y se eliminará.
 
 - Implementa una clase EconomyFlight que amplía Flight e implementa los métodos abstractos heredados addPassenger y removePassenger.
-
   
 - Implementa una clase BusinessFlight que amplía Flight e implementa los métodos abstractos heredados addPassenger y removePassenger.
+ **[Ver markdown de fase2]**
+![image](https://github.com/GabrielBarrientos99/CC-3S2/assets/129352498/613d0b84-7050-4388-b04f-7d7ed27846b6)
+  
   
 - La refactorización y los cambios de la API se propagan a la implementacion de las pruebas. ¿Cómo?.
+
+  Por supuesto que se propagan a la implementacion de las pruebas. Estas pruebas fueron estrcuturadas de acuerdo con la implementacion no refactorizada.
+  Tanto cuando creabamos los objetos con ciertos contructores , ahora como se ha eliminado un atributo y cambiado el contructor ,va afectar a la sintaxis
+  de como se planteo las pruebas y se va añadir el **polimorfismo**.
 
   
 ¿Cuál es el código de cobertura ahora?. ¿Ayudó la refactorización a la mejor calidad de código?
