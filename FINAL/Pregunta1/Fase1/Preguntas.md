@@ -11,9 +11,11 @@ AirportTest. ¿Cuáles son los resultados de las pruebas con cobertura obtenidad
 **Respuesta**
 
 Vemos que en un principio nos sale error Debido a que la clase EconomyFlight no esta creada
+
 ![img.png](img.png)
 
 De la misma forma para la clase de BusinessFlight
+
 ![img_1.png](img_1.png)
 
 Como en un principio se crea el objeto economyFlight como una instancia de la clase Flight y luego se procede
@@ -32,7 +34,9 @@ Tanto para un vuelo de tipo economico como para un vuelo business
 
 
 Vemos que todas las pruebas pasan.Al inicio sin definir aun las pruebas.
+
 ![img_7.png](img_7.png)
 
 Obteniendo una cobertura de 0% inicial
+
 ![img_8.png](img_8.png)
