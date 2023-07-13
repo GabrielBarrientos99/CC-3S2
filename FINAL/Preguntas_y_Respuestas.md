@@ -84,6 +84,9 @@ Considera que, después de recibir el requisito para la implementación de este 
 Utiliza la clase AirportTest refactorizada antes de pasar al trabajo para el vuelo premium en el código desarrollado como mejora a tus resultados. Ver el codigo entregado en la evaluación.
 Ejecuta las pruebas.
 
+![image](https://github.com/GabrielBarrientos99/CC-3S2/assets/129352498/0320daa8-7c88-4d86-a485-1a559a9277a3)
+
+
 ----
 
 
