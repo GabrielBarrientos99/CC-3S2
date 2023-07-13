@@ -95,6 +95,9 @@ Ejecuta las pruebas.
 Realiza la implementación de la clase PremiumFlight y su lógica. Debes crear PremiumFlight como una subclase de Flight y sobreescribir los métodos addPassenger y removePassenger, pero actúan como stubs: no hacen nada y simplemente devuelven false. El estilo TDD de trabajo implica crear primero las pruebas y luego la lógica de negocios.
 
 **Pregunta:**
+[Ver implementacion TDD en el markdown]
+
+![image](https://github.com/GabrielBarrientos99/CC-3S2/assets/129352498/ea5afe58-ed15-4076-9cde-5a65559f1efb)
 
 
 ----
