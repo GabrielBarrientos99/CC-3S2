@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Cuando tenemos un pasajero VIP" tests="1" skipped="0" failures="0" errors="0" timestamp="2023-07-13T00:24:02" hostname="DESKTOP-20FA070" time="0.025">
+  <properties/>
+  <testcase name="Luego puedes agregarlo pero no puede eliminarlo de un vuelo de negocios" classname="AirportTest$BusinessFlightTest$VipPassenger" time="0.025"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
