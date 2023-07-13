@@ -111,7 +111,8 @@ Para garantizar la unicidad de los pasajeros en un vuelo, cambia la estructura d
 **Pregunta:**
 
 ¿Cómo cambia la clase de vuelo en este contexto?.
-Las clases que cambiarian son las que estamos probando el codigo que son las clases hijas : BusinessFlight,EconomyFlight y PremiumFlight. Sobre todo en el metodo addPassenger.**[Ver marckdown-Fas5]**
+Las clases que cambiarian son las que estamos probando el codigo que son las clases hijas : BusinessFlight,EconomyFlight y PremiumFlight. Sobre todo en el metodo addPassenger.**[Ver marckdown-Fase5]**
+
 Luego crea una nueva prueba para verificar que un pasajero solo se puede agregar una vez a un vuelo
 ¿Consigues una mejor cobertura de código?
 
