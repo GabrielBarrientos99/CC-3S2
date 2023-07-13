@@ -32,6 +32,7 @@ flightType y si se quisiera agregar un nuevo tiepo de vuelo se tendria que modif
 
 ![image](https://github.com/GabrielBarrientos99/CC-3S2/assets/129352498/e210fdef-9e96-406a-857c-182487d80c85)
 
+
 ----
 
 **Fase 2**
@@ -63,6 +64,7 @@ removePassenger a métodos abstractos y delegar su implementación a subclases. 
 ¿Cuál es el código de cobertura ahora?. ¿Ayudó la refactorización a la mejor calidad de código?
 
 La cobertura de código actual después de la refactorización es del 100% para las clases hijas. La logica ahora se prueba en estas clases y sus implementaciones
+
 ![image](https://github.com/GabrielBarrientos99/CC-3S2/assets/129352498/39021253-daa0-445d-8e9a-d19a0098bf9e)
 
 Por supuesto que ayudo a mejorar la calidad de codigo porque ahora es posibler agregar mas tipos de vuelo . Si ahora quisieramos agregar uno no tendriamos que modificar la clase 
